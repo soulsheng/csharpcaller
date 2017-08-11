@@ -14,8 +14,15 @@ namespace callEXE
         public Form1()
         {
             InitializeComponent();
+            textBox1.Text = "D:\\file\\code\\bin\\OpenCPN-bin\\opencpn.exe";
+
+            // 3d rebuild
+            /*
             textBox1.Text = "E:\\3d\\exe\\build_view_reconstruction.exe";
-            textBox2.Text = "--input_images=E:\\3d\\170602\\170508DalianVolume-101-960p-gps\\ --output_images=E:\\3d\\output\\ --same_color=1 --color_point=(0,255,0) --color_sky=(0,0,0) --point_size=3 --flagfile=E:\\3d\\exe\\build_reconstruction_flags.txt --build=0 --view=1";
+            textBox2.Text = "--input_images=E:\\3d\\170602\\170508DalianVolume-101-960p-gps\\ "
+                + "--output_images=E:\\3d\\output\\ --same_color=1 --color_point=(0,255,0) --color_sky=(0,0,0) --point_size=3 "
+                + "--flagfile=E:\\3d\\exe\\build_reconstruction_flags.txt --build=0 --view=1";
+             */
         }
 
         private void call(string exe, string parameter)
